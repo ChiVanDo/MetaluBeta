@@ -1,0 +1,75 @@
+.card img{
+    padding: 5px;
+
+}
+.card-body{
+    text-align: center;
+}
+
+.header-lv1{ 
+    display: flex;
+}
+.header-lv2{
+    margin: auto;
+    background-color: rgb(230, 227, 139);
+    width: 80%;
+}
+.footer-lv1{
+    display: flex;
+}
+.footer-lv2{
+    margin: auto;
+    background-color: rgb(230, 227, 139);
+    width: 80%;
+}
+
+.root-lv1{
+    display: flex;
+}
+.root-lv2{
+    width: 80%;
+    background-color: rgb(128, 170, 170);
+    margin: auto;
+    display: flex;
+}
+.items{
+    margin: auto;
+    padding: 25%;
+}
+.info{
+    margin-top: 5%;
+    padding: 2%;
+    width: 40%;
+    background-color:rgb(154, 198, 198); ;
+}
+.info input{
+    margin: 1%;
+}
+.info button{
+    margin-top: 5%;
+    border-radius: 5%;
+    border: 0px;
+    padding: 1%;
+}
+.info button:hover{
+    background-color: rgb(200, 191, 179);
+}
+.img-lv1{
+    width: 50%;
+    height: 220px;
+    background-color: rgba(209, 193, 193, 0.836);
+    border: 5px solid gold;
+    border-radius: 5%;
+
+}
+.img-lv1 img{
+    width: 10%;
+    border-radius: 100%;
+    border: 2px solid rgb(233, 233, 233);
+}
+
+#datbau:hover{
+    background-color: bisque;
+}
+a{
+    text-decoration: none;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MetaLú ProFile</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="header-lv1">
+      <div class="header-lv2">
+        <h1>Galaxy's MetaLú</h1>
+      </div>
+    </div>
+    <div class="root-lv1">
+      <div class="root-lv2">
+        
+        <div class="items" id = 'root'>
+            
+          <!-- <div class="card" style="width: 18rem">
+            <img src="https://1.bp.blogspot.com/-1F0txd6CTXk/XyjEn1_2atI/AAAAAAAAiX0/2X1yKYprbxEAPvrNA4VoX_nuv8nawCSuQCNcBGAsYHQ/d/a5a84b393a0778e047f87c79478481e7.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">YOUR NAME</h5>
+              <p class="card-text">
+               Chiến thần của sự tự do, never die.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-lv1">
+      <div class="footer-lv2">
+        <h1>dev by chivando!</h1>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    var jsonDssp = localStorage.getItem('danhsachsp');
+    var dssp = JSON.parse(jsonDssp);
+
+    console.log(dssp);
+
+    var html = chuyenDanhsachdoituongsanphamthanhHTML(dssp);
+
+    var nodeSp = document.getElementById('root');
+    nodeSp.innerHTML = html;
+
+  </script>
+</html>
